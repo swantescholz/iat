@@ -1,0 +1,41 @@
+It's About Time
+only 2 save slots (1,2 -> save, X/C reload from save spot?)
+2D cave system, animated background?
+
+a ball, sticking to the walls, shoot straight with mouse
+currents, repulsors change direction
+time slows to half, when aiming
+after arriving at wall -> timeout of .24 seconds => better aiming required to spare time
+
+always a timer running, continuously
+timer can be reduced by collecting hourglasses (8 seconds each?)
+levels seperated by blue doors with time limit
+ - e.g. 2:33, after 2:33 the door closes
+red doors: secrets (credits?), synchronisation, open after time limit exceeded
+
+when blue door closes, player supposedly lost: timer red, "press 'r' to restart etc."
+ -> hourglasses vanish (light from sourrounding crystals for different atmosphere?)
+ -> hourglasses still there, invisible, with audio cues given
+ -> player can still collect them (from memory), they then give like 18 seconds
+ -> door may open again, player enters next level
+ -> this process may either be explored early in the game by curious players or the
+ -> player is forced to do that later in the game, since the normal extra time won't suffice
+ -> to reach the door in time.
+
+
+0:00 blue door in the start room, return at the end for credits and ending room?
+red walls kill you -> restart from start of jump, or from last save?
+multiple exits -> secret rooms?
+level counter, exit counter?
+property file -> map
+long small tunner before exit, without hourglasses
+
+TODO:
+-double to float VBO, better performance?
+-activate culling sometime
+-timer on door, not HUD? -> font system
+-normals rescale for light? -> shader fragment per pixel,
+-all dark, single light
+-gl error handling
+-clocks
+-save spots

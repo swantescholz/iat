@@ -1,0 +1,8 @@
+*.iws
+*.ipr
+*.iml
+.idea/
+.sonar/
+out/
+screenshots/
+/log.txt
